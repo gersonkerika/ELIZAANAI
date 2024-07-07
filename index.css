@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e71d0a;
+    margin: 0; /* Ajustado para eliminar el margen no especificado */
+    padding: 0; /* Ajustado para eliminar el padding no especificado */
+}
+
+.container {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #17830e;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(3, 18, 78);
+    color: #1a7112;
+    background-image: url('fondo.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Para cubrir todo el contenedor */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar que se repita */
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.section p {
+    font-size: 18px; /* Tamaño de la fuente ajustado */
+    font-family: 'Arial Black', sans-serif; /* Fuente ajustada */
+    color: #488215; /* Color del texto ajustado */
+    text-align: justify; /* Alineación del texto */
+    margin-bottom: 15px; /* Margen inferior para separación */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+/* Estilos para el texto de bienvenida */
+.logo-text {
+    font-size: 20px; /* Tamaño de la fuente ajustado */
+    font-family: 'Arial Black', sans-serif; /* Fuente ajustada */
+    color: #488215; /* Color del texto ajustado */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+h1 {
+    font-size: 36px; /* Tamaño de la fuente ajustado */
+    font-family: 'Arial Black', sans-serif; /* Fuente ajustada */
+    color: #243587; /* Color del texto ajustado */
+    text-align: center; /* Alineación del texto */
+    margin-bottom: 20px; /* Margen inferior para separación */
+}
+
+.logo-container img {
+    max-width: 100%; /* Cambiado para que la imagen se ajuste correctamente */
+    height: auto;
+    border-radius: 10px;
+}
+
+.section {
+    margin-bottom: 30px;
+    text-align: justify;
+    padding: 20px;
+    background-color: #fde9d9;
+    border-radius: 10px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-container button {
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #0fe7f7;
+    color: #0f1c60;
+    border: none;
+    border-radius: 10px;
+}
+
+.audio-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+audio {
+    width: 80%;
+    max-width: 400px;
+    margin-top: 20px;
+    opacity: 0.7;
+}

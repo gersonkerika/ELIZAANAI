@@ -1,0 +1,90 @@
+/* Estilos generales para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #18f310; /* Color de fondo verde */
+    margin: 0;
+    padding: 0;
+    color: #ffffff; /* Color del texto ajustado a blanco */
+    
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #17830e;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(3, 18, 78);
+    color: #1a7112;
+    background-image: url('fondo.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Para cubrir todo el contenedor */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar que se repita */
+}
+
+
+/* Estilos para el texto de bienvenida */
+.welcome-text {
+    font-size: 24px; /* Tamaño de fuente aumentado */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Cambio de fuente */
+    color: #3d3a2f; /* Color de texto personalizado */
+    line-height: 1.6; /* Altura de línea aumentada para mejorar la legibilidad */
+}
+/* Estilos para el logotipo */
+.logo {
+    width: 300px;
+    height: auto;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+
+/* Estilos para la imagen de la silla */
+.silla-image {
+    width: 80%; /* Ocupa el ancho completo del contenedor */
+    height: auto;
+    margin-top: 30px; /* Ajustado el margen superior */
+    border-radius: 50px;
+}
+
+/* Estilos para la lista de enlaces */
+ul {
+    text-align: left;
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+}
+
+ul li {
+    margin: 20px 0;
+    font-size: 18px; /* Tamaño de fuente ajustado */
+}
+
+/* Estilos para los botones */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    flex-wrap: wrap; /* Permite que los botones se envuelvan en dispositivos pequeños */
+}
+
+.buttons ul {
+    margin-right: 20px; /* Espacio entre la lista de enlaces y los botones */
+}
+
+button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #1b1b18;
+    color: #c0c783; /* Color del texto ajustado */
+    border: none;
+    border-radius: 10px;
+}
+
+/* Estilos para el área de resultado */
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
